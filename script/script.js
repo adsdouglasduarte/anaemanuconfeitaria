@@ -19,7 +19,7 @@ $('#form-main').validate({
         }
     },
 
-    // Mensagens de validação personalizadas
+    // Mensagens de validação em portugues
     messages: {
         nome: {
             required: 'Preencha o campo nome'
