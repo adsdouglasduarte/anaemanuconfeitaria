@@ -22,7 +22,7 @@ body {
 }
 
 #logo {
-    width: 20vw!important;
+    width: 25vw!important;
 }
 
 .navbar {
@@ -73,5 +73,9 @@ body {
 @media (max-width:767px) {
     .carousel-item img {
         height: 200px;
+    }
+
+    header #logo {
+        margin-left: 2.5rem;
     }
 }
