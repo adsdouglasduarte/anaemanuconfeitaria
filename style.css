@@ -22,16 +22,16 @@ body {
 }
 
 #logo {
-    width: 25vw!important;
+    max-width: 20vw!important;
 }
 
 .navbar {
-    background-color: #F2A2B8;
+    background-color: var(--color1);
 }
 
 #cabecalho .nav .nav-link.active {
     background-color: #fff;
-    color: #e15f41;
+    color: var(--color4);
 }
 
 #cabecalho .nav .nav-link, .navbar-brand, .navbar-brand:hover,
@@ -40,11 +40,11 @@ body {
 }
 
 .navbar-toggler {
-    background-color: #ffeae6;
+    background-color: var(--color3);
 }
 
 .text-colored {
-    color: #BF6060;
+    color: var(--color5);
 }
 
 #sobre-restaurante, #cardapio {
@@ -52,12 +52,12 @@ body {
 }
 
 .nav-cardapio .nav-link.active, #fale-conosco button {
-    background-color: #e15f41;
+    background-color: var(--color4);
     color: #fff;
 }
 
 .nav-cardapio .nav-link:hover {
-    color: #e15f41;
+    color: var(--color4);
 }
 
 .social-links li {
@@ -77,5 +77,9 @@ body {
 
     header #logo {
         margin-left: 2.5rem;
+    }
+
+    #logo {
+        max-width:30vw!important;
     }
 }
