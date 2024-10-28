@@ -21,6 +21,10 @@ body {
     font-family: 'title-juni','title-junisw', sans-serif;
 }
 
+.text-justify-custom {
+    text-align: justify;
+}
+
 #logo {
     max-width: 20vw!important;
 }
@@ -47,8 +51,13 @@ body {
     color: var(--color5);
 }
 
+#bolos img {
+    height: 200px;
+}
+
+
 #sobre-restaurante, #cardapio {
-    background-color: #ffeae6;
+    background-color: var(--color3);
 }
 
 .nav-cardapio .nav-link.active, #fale-conosco button {
