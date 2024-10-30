@@ -25,6 +25,7 @@ body {
     text-align: justify;
 }
 
+
 #logo {
     max-width: 20vw!important;
 }
@@ -38,7 +39,7 @@ body {
     color: var(--color4);
 }
 
-#cabecalho .nav .nav-link, .navbar-brand, .navbar-brand:hover,
+#cabecalho .nav .nav-link, footer, .navbar-brand, .navbar-brand:hover,
 .nav-cardapio .nav-link.nav-link.active:hover {
     color: #fff;
 }
@@ -76,6 +77,19 @@ body {
     text-decoration: none;
 }
 
+.img-fluid {
+    width: 30px;
+    height: 30px;
+}
+
+.footer-confet {
+    background-color: var(--color1);
+}
+
+small {
+    text-align: center;
+}
+
 @media (max-width:767px) {
     .carousel-item img {
         height: 200px;
@@ -87,5 +101,10 @@ body {
 
     #logo {
         max-width:30vw!important;
+    }
+
+    .img-fluid {
+        width: 30px;
+        height: auto;
     }
 }
